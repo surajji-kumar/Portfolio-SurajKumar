@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #EDF1D6;
+    font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+    /* position: relative; */
+    /* padding-top: 10rem ; */
+    
+  }
+
+
+/* Contact Page */
+
+/* Tenth Section */
+/* .header{ */
+    /* position: relative; */
+    /* position: fixed; */
+    /* top: 0; */
+/* } */
+ .tenth-section {
+    padding-top: 40px;
+} 
+ 
+ 
+.contact {
+    padding: 5%;
+    /* padding-top: 10rem; */
+}
+
+.contact .section-head {
+    text-align: center;
+    color: #000;
+}
+
+.section-head h1 {
+    /* color: white; */
+    font-size: 2.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+/* .section-head h2 {
+    /* color: gray; */
+/* } */ 
+
+.contact .tenth-section-content {
+    margin: 4rem 4rem 0 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tenth-section-content .left-tenth {
+    width: 30%;
+}
+
+.left-tenth {
+    font-size: 20px;
+    /* color: white; */
+}
+
+.left-tenth h2 {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.left-tenth a {
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.left-tenth a:hover {
+    /* transition-duration: 0.5s; */
+    color: #40513B;
+}
+
+.left-tenth i {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tenth-section-content .right-tenth {
+    width: 40%;
+}
+.right-tenth input{
+    width: 90%;
+}
+.right-tenth form input {
+    /* width: 90%; */
+    border: transparent;
+    background-color: #fff;
+    box-shadow: 0.1px 0.1px 5px 0.1px #000;
+    color: #000;
+    /* font-weight: 600; */
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-top: 25px;
+    outline: none;
+}
+
+.right-tenth form textarea {
+    width: 90%;
+    height: 24.5px;
+    
+    padding: 1rem;
+    margin-top: 25px;
+    /* color: white; */
+    font-size: 1.1rem;
+    border:transparent;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 5px 0.1px #000;
+}
+
+.right-tenth p {
+    color: red;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.right-tenth form .submit-form {
+    /* width: 98%; */
+    margin-left: 18px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: none;
+    background-color: #609966;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    border: transparent;
+    transition: all 0.5s;
+}
+
+.right-tenth form .submit-form:hover {
+    background-color: #40513B;
+    color: #fff;
+}
